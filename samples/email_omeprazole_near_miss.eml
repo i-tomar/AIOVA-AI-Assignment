@@ -1,0 +1,38 @@
+From: Priya Raman <priya.raman@northline.example>
+To: QA Deviations <qa.deviations@northline.example>
+Cc: Production Bay 3 <bay3@northline.example>
+Date: Tue, 18 Mar 2026 16:05:00 +0530
+Subject: Near miss — wrong solvent staged for OMP-INT-26-077
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+QA,
+
+Please open an investigation for a near miss in synthesis bay 3. No deviation number has been assigned. I am the production manager on days.
+
+Product: omeprazole sulfide intermediate
+Batch: OMP-INT-26-077
+Process stage: solvent charge
+Equipment: reactor R-210
+Site: Northline API Works, Hyderabad, synthesis bay 3
+
+At 15:41 today the warehouse operator overrode a barcode mismatch on scanner WH-SCN-2. The drum staged at the charging booth was methanol drum MD-4418. The batch record calls for ethanol drum ED-2201. The override reason code was left blank. The operator used a supervisor login; I have not yet confirmed whose credentials those were. Badge activity at the booth shows K. Das in the area, but I cannot say from this email that K. Das performed the override.
+
+Line clearance checklist LC-OMP-INT for bay 3 was signed by S. Kulkarni at 15:10, before the methanol drum was moved to the booth. The checklist marks the solvent staging area as clear.
+
+The charging step has not started. No material was added to reactor R-210. Drum MD-4418 was returned to the methanol cage and tagged "do not use — staging error 18 Mar 2026". The ethanol drum ED-2201 is still in the ethanol store and was not opened.
+
+Impact as I see it: no product was contacted, the batch can continue once QA agrees the booth is clear, and nothing has left the site. This would have been a wrong-solvent charge had the override not been noticed by the bay chemist at the pre-charge check.
+
+What I still need from the investigation:
+- the scanner audit trail for WH-SCN-2 at 15:41, including the user id on the override
+- whether the methanol label on MD-4418 was legible (the operator told the chemist the label was faded, but I have not seen it)
+- why line clearance was signed at 15:10 if the drum arrived later
+- whether override-with-blank-reason is even allowed by warehouse SOP WH-SOP-006
+
+I have paused the charge. The batch is not on deviation status in the system because we do not have a number.
+
+Priya Raman
+Production manager, synthesis
+Northline API Works

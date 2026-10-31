@@ -1,0 +1,22 @@
+Shift note — pasted from the B-shift supervisor, drying bay
+Northline API Works, Hyderabad
+3 April 2026, about 22:10 IST
+From: A. Iyer, drying supervisor
+
+We have a problem on metformin hydrochloride batch MFH-26-2033 and I am sending this before I write the deviation, because QA asked for the facts tonight. There is no deviation number yet.
+
+Product is metformin hydrochloride API. Stage is tray drying in TD-12. The batch was discharged at about 21:40. Final LOD on meter LOD-05 was 0.42% against the limit of NMT 0.30% in SOP-DRY-012. I moved the drums to the quarantine cage. Nothing has been packed and nothing has been released. No patient exposure.
+
+What I know:
+
+The drying cycle in the batch record is 6 hours with the supply-air damper fully open. The operator stopped the cycle at 4.5 hours. He told me the campaign schedule for the next batch was already slipping and the material "looked dry". I do not have the name of anyone who authorised that early stop. The batch record just shows the discharge time.
+
+In-process LOD at 4 hours was already 0.35%, which is over the discharge limit, and they discharged anyway. SOP-DRY-012 says do not discharge unless LOD is at or below 0.30%.
+
+At the start of the shift the filter bags on TD-12 were changed. I do not think that is the whole story. After I held the batch, maintenance opened the air handler and found the supply-air damper on TD-12 at about 40% open. It should have been fully open for the whole cycle. Airflow at the trays had felt weak when I walked the bay at 19:00, and I asked the operator to check it. I cannot find a written check.
+
+LOD-05 was calibrated on 28 March 2026. The printout from the failing result is in the batch record. The 4-hour in-process printout is also there.
+
+The previous batch in TD-12, MFH-26-2032, met LOD at 0.18% after a full 6-hour cycle. Same dryer, damper reportedly full open, bags not changed that day.
+
+I have not interviewed the operator formally. Maintenance has not written a work order yet. Please tell me the deviation number to use and whether you want the dryer tagged out before the night shift charges the next batch.
